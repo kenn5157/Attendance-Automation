@@ -1,0 +1,2 @@
+1,1,student,lastname,20
+2,0,teacher,lastname,45

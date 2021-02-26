@@ -1,0 +1,58 @@
+{
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+
+.blueBackground {
+    -fx-background-color: #52abb1;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #52abb1;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.tab-pane {
+    -fx-tab-max-width: 110px;
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: lightgrey;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: white;
+}
+
+.tab .tab-label {
+    -fx-alignment: center;
+    -fx-text-fill: grey;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #2b2b2b;
+    -fx-alignment: center;
+}
+
+.titled-pane {
+    -fx-effect: dropshadow(gaussian, #2b2b2b50, 5, 0.1, 5, 5);
+}
+
+.titled-pane > .title  {
+    -fx-background-radius: 0, 0, 0;
+    -fx-font: bold 14px System;
+
+    /* stop the background from being blue on focus */
+    -fx-background-color: #52abb1;
+}
+
+.titled-pane > .content {
+    -fx-background-color: white;
+}

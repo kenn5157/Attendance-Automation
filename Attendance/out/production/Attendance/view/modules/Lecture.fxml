@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.VBox?>
+
+<TitledPane fx:id="titlePaneTitle" stylesheets="@../primaryStyle.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.modules.LectureController">
+   <content>
+      <VBox alignment="TOP_CENTER" spacing="5.0">
+         <children>
+            <Label fx:id="classContentLabel" text="Label" />
+            <CheckBox fx:id="attendanceCheckBox" mnemonicParsing="false" onAction="#saveAttendance" text="Attendance" />
+         </children>
+      </VBox>
+   </content>
+</TitledPane>
